@@ -1,60 +1,60 @@
 import React from "react";
-import { FaStar, FaStarHalfAlt, FaStarReg } from "react-icons/fa";
+import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 
 export const Ratings = ({ value, text }) => {
   return (
-    <div className="ratings">
-      <span>
+    <div className="ratings flex items-center">
+      <span className="">
         {" "}
         {value >= 1 ? (
-          <FaStar />
+          <FaStar color="orange" />
         ) : value >= 0.5 ? (
-          <FaStarHalfAlt />
+          <FaStarHalfAlt color="orange" />
         ) : (
-          <FaStarReg />
+          <FaRegStar color="orange" />
         )}
       </span>
       <span>
         {" "}
         {value >= 2 ? (
-          <FaStar />
+          <FaStar color="orange" />
         ) : value >= 1.5 ? (
-          <FaStarHalfAlt />
+          <FaStarHalfAlt color="orange" />
         ) : (
-          <FaStarReg />
+          <FaRegStar color="orange" />
         )}
       </span>
       <span>
         {" "}
         {value >= 3 ? (
-          <FaStar />
+          <FaStar color="orange" />
         ) : value >= 2.5 ? (
-          <FaStarHalfAlt />
+          <FaStarHalfAlt color="orange" />
         ) : (
-          <FaStarReg />
+          <FaRegStar color="orange" />
         )}
       </span>
       <span>
         {" "}
         {value >= 4 ? (
-          <FaStar />
+          <FaStar color="orange" />
         ) : value >= 3.5 ? (
-          <FaStarHalfAlt />
+          <FaStarHalfAlt color="orange" />
         ) : (
-          <FaStarReg />
+          <FaRegStar color="orange" />
         )}
       </span>
       <span>
         {" "}
         {value >= 5 ? (
-          <FaStar />
+          <FaStar color="orange" />
         ) : value >= 4.5 ? (
-          <FaStarHalfAlt />
+          <FaStarHalfAlt color="orange" />
         ) : (
-          <FaStarReg />
+          <FaRegStar color="orange" />
         )}
       </span>
-      <span>{text}</span>
+      <span className="mx-2">{`${text} Reviews`} </span>
     </div>
   );
 };
