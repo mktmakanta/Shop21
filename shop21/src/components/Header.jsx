@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping, faUser } from "@fortawesome/free-solid-svg-icons";
+import { NavLink } from "react-router-dom";
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,13 +13,16 @@ export const Header = () => {
     <header className="">
       <nav className="bg-gray-800 text-white p-4 px-20">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="text-2xl font-bold flex items-center gap-1">
+          <NavLink
+            to="/"
+            className="text-2xl font-bold flex items-center gap-1"
+          >
             Shop21{" "}
             <div className="w-16">
               {" "}
               <img className="w-full h-full" src="src/assets/logo.png" alt="" />
             </div>
-          </div>
+          </NavLink>
 
           {/* Hamburger  */}
           <div className="md:hidden">
@@ -46,8 +50,12 @@ export const Header = () => {
           {/* Menu for larger screens */}
           <div className="hidden md:flex ">
             <div className="space-x-6">
-              <FontAwesomeIcon icon={faCartShopping} />
-              <FontAwesomeIcon icon={faUser} />
+              <NavLink to="/cart">
+                <FontAwesomeIcon icon={faCartShopping} /> Cart
+              </NavLink>
+              <NavLink to="/user">
+                <FontAwesomeIcon icon={faUser} /> User
+              </NavLink>
             </div>
           </div>
         </div>

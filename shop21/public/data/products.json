@@ -1,9 +1,9 @@
 {
   "products": [
     {
-      "_id": 1,
+      "id": 1,
       "name": "Nike Green",
-      "image": "",
+      "image": "shoe-1",
       "description": "Comfortable and stylish green Nike shoes.",
       "brand": "Nike",
       "category": "Shoes",
@@ -13,9 +13,9 @@
       "numReviews": 12
     },
     {
-      "_id": 2,
+      "id": 2,
       "name": "Adidas Ultraboost",
-      "image": "",
+      "image": "shoe-2",
       "description": "High-performance running shoes by Adidas.",
       "brand": "Adidas",
       "category": "Shoes",
@@ -25,9 +25,9 @@
       "numReviews": 45
     },
     {
-      "_id": 3,
+      "id": 3,
       "name": "Puma Classic T-Shirt",
-      "image": "",
+      "image": "shoe-3",
       "description": "Soft and comfortable classic T-shirt by Puma.",
       "brand": "Puma",
       "category": "Apparel",
@@ -37,9 +37,9 @@
       "numReviews": 30
     },
     {
-      "_id": 4,
+      "id": 4,
       "name": "Under Armour Hoodie",
-      "image": "",
+      "image": "shoe-4",
       "description": "Warm and durable hoodie by Under Armour.",
       "brand": "Under Armour",
       "category": "Apparel",
@@ -49,9 +49,9 @@
       "numReviews": 25
     },
     {
-      "_id": 5,
+      "id": 5,
       "name": "Reebok Running Shorts",
-      "image": "",
+      "image": "shoe-5",
       "description": "Lightweight and breathable running shorts by Reebok.",
       "brand": "Reebok",
       "category": "Apparel",
@@ -61,9 +61,9 @@
       "numReviews": 18
     },
     {
-      "_id": 6,
+      "id": 6,
       "name": "New Balance Running Shoes",
-      "image": "",
+      "image": "shoe-6",
       "description": "Durable and comfortable running shoes by New Balance.",
       "brand": "New Balance",
       "category": "Shoes",
@@ -71,6 +71,18 @@
       "countInStock": 25,
       "rating": 4.6,
       "numReviews": 22
+    },
+    {
+      "id": 7,
+      "name": " Running Shoes",
+      "image": "shoe-7",
+      "description": "Durable and comfortable running shoes by New Balance.",
+      "brand": "New Balance",
+      "category": "Shoes",
+      "price": 90.0,
+      "countInStock": 21,
+      "rating": 4.4,
+      "numReviews": 43
     }
   ]
 }
