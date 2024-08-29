@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "_id": 1,
+      "name": "Nike Green",
+      "image": "",
+      "description": "Comfortable and stylish green Nike shoes.",
+      "brand": "Nike",
+      "category": "Shoes",
+      "price": 85.42,
+      "countInStock": 10,
+      "rating": 4.5,
+      "numReviews": 12
+    },
+    {
+      "_id": 2,
+      "name": "Adidas Ultraboost",
+      "image": "",
+      "description": "High-performance running shoes by Adidas.",
+      "brand": "Adidas",
+      "category": "Shoes",
+      "price": 120.99,
+      "countInStock": 15,
+      "rating": 4.8,
+      "numReviews": 45
+    },
+    {
+      "_id": 3,
+      "name": "Puma Classic T-Shirt",
+      "image": "",
+      "description": "Soft and comfortable classic T-shirt by Puma.",
+      "brand": "Puma",
+      "category": "Apparel",
+      "price": 25.5,
+      "countInStock": 50,
+      "rating": 4.2,
+      "numReviews": 30
+    },
+    {
+      "_id": 4,
+      "name": "Under Armour Hoodie",
+      "image": "",
+      "description": "Warm and durable hoodie by Under Armour.",
+      "brand": "Under Armour",
+      "category": "Apparel",
+      "price": 60.75,
+      "countInStock": 20,
+      "rating": 4.7,
+      "numReviews": 25
+    },
+    {
+      "_id": 5,
+      "name": "Reebok Running Shorts",
+      "image": "",
+      "description": "Lightweight and breathable running shorts by Reebok.",
+      "brand": "Reebok",
+      "category": "Apparel",
+      "price": 35.99,
+      "countInStock": 30,
+      "rating": 4.3,
+      "numReviews": 18
+    },
+    {
+      "_id": 6,
+      "name": "New Balance Running Shoes",
+      "image": "",
+      "description": "Durable and comfortable running shoes by New Balance.",
+      "brand": "New Balance",
+      "category": "Shoes",
+      "price": 95.0,
+      "countInStock": 25,
+      "rating": 4.6,
+      "numReviews": 22
+    }
+  ]
+}

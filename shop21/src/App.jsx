@@ -1,13 +1,16 @@
-import { useState } from "react";
-
 import "./App.css";
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+import { HomeScreen } from "./screens/HomeScreen";
 
 function App() {
   return (
     <>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ex.
-      </h1>
+      <Header />
+      <main className="p-4 px-20">
+        <HomeScreen />
+      </main>
+      <Footer />
     </>
   );
 }
