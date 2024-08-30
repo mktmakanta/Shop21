@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Product } from "../components/Product.jsx";
+import { ProductScreen } from "./ProductScreen.jsx";
 
 export const HomeScreen = () => {
   const [products, setProducts] = useState([]);

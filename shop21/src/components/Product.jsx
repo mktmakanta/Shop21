@@ -14,7 +14,10 @@ export const Product = ({ product }) => {
           />
         </div>
         <div className="my-5 bg-blue-50 p-4 rounded-md">
-          <NavLink to="/product" className="font-medium text-xl ">
+          <NavLink
+            to={`/product/${product.id}`}
+            className="font-medium text-xl "
+          >
             {product.name}
           </NavLink>
           <Ratings value={product.rating} text={product.numReviews} />
