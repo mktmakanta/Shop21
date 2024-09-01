@@ -68,7 +68,7 @@
       "brand": "New Balance",
       "category": "Shoes",
       "price": 95.0,
-      "countInStock": 25,
+      "countInStock": 0,
       "rating": 4.6,
       "numReviews": 22
     },
