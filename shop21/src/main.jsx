@@ -5,6 +5,8 @@ import "./assets/styles/index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { HomeScreen } from "./screens/HomeScreen.jsx";
 import { ProductScreen } from "./screens/ProductScreen.jsx";
+import Cart from "./components/Cart.jsx";
+import User from "./components/User.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
       {
         path: "/product/:productId",
         element: <ProductScreen />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
+      },
+      {
+        path: "/user",
+        element: <User />,
       },
     ],
   },
