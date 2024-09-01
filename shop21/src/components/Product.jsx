@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import { Ratings } from "./Ratings";
 
 export const Product = ({ product }) => {
@@ -21,10 +21,10 @@ export const Product = ({ product }) => {
             {product.name}
           </NavLink>
           <Ratings value={product.rating} text={product.numReviews} />
-
-          <p>{product.price}</p>
+          <p>${product.price}</p>
         </div>
       </div>
+      <Outlet />
     </>
   );
 };
