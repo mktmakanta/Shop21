@@ -12,7 +12,7 @@ const ProductDetails = ({ product }: { product: any }) => {
         <Link href="/">Go Back</Link>
       </Button>
 
-      <div className=" flex flex-col md:flex-row gap-5">
+      <div key={product._id} className=" flex flex-col md:flex-row gap-5">
         <div className=" ">
           <Image
             src={product.image}
